@@ -1,0 +1,66 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 0px 50px;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(204, 204, 204);
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.search{
+    width: 250px;
+    height: 20px;
+    border: 2px;
+    border-style: solid;
+}
+.button{
+    padding: 2px 5px;
+    color: whitesmoke;
+    background-color: rgb(65, 118, 221);
+    box-shadow: 2px 2px black;
+}
+.columns{
+    display: flex;
+    gap: 30px;
+}
+
+.box{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.box2{
+    padding: 10px;
+}
+.box2 p{
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+.definition{
+    width: 150px;
+    padding: 4px 10px;
+    background-color: rgb(157, 195, 132);
+}
+
+/* UTILITIES */
+.border{
+    border: 2px;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+.likes{
+    width: 80px;
+    padding: 3px 10px;
+    box-shadow: 2px 2px;
+    background-color: rgb(249, 218, 120);
+}
